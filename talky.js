@@ -1,6 +1,4 @@
 #!/usr/local/bin/node
-
-
 // get input length, default with no args is 2.
 var inputSize = process.argv.length - 2;
 
