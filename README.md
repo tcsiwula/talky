@@ -3,7 +3,7 @@ Talky
 
 A command line based, automaton. Think of it like a personal stackoverflow assistant.
 
-See the associated blog post, ["Creating and publishing a node.js module."](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/)
+See the associated blog post, ["Getting started with talky"](https://google.com)
 
 ## Installation
 
@@ -14,15 +14,11 @@ See the associated blog post, ["Creating and publishing a node.js module."](http
 ## Usage
 
 ```js
-  var talky = require('talky')
-      escape = talky.escape,
-      unescape = talky.unescape;
+  var talkyMaster = require('talky');
 
-  var html = '<h1>Hello World</h1>',
-      escaped = escape(html),
-      unescaped = unescape(escaped);
 
-  console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
+  var talkyClientForUser123 = talkyMaster.generate();
+
 ```
 
 ## Tests
