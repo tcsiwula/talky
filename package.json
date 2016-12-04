@@ -1,0 +1,35 @@
+{
+  "name": "talky",
+  "version": "1.0.0",
+  "description": "A command line based, automaton. Think of it like a personal stackoverflow assistant.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tcsiwula/talky.git"
+  },
+  "keywords": [
+    "talky",
+    "assistant",
+    "bot",
+    "ai",
+    "tutor",
+    "stackoverflow"
+  ],
+  "author": "Tim Siwula <tcsiwula@gmail.com> (http://itimmy.com/)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tcsiwula/talky/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/tcsiwula/talky/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1"
+  }
+}
